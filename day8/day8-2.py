@@ -5,12 +5,6 @@ image_data = ''
 width = 25
 height = 6
 
-def count_num_layer(layer, num):
-    counter = 0
-    for i in layer:
-        counter += str(i).count(str(num))
-    return counter
-
 def layer_comp(layer, final):
     for x in range(len(layer)):
         for y in range(len(layer[x])):
